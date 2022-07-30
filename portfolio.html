@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио</title>
+    <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -16,11 +16,11 @@
     <header class="page-header">
         <div class="container page-header-container">
             <nav class="nav">
-                <a href="./index.html" lang="en" class="link logo header-logo"><span class="current">Web</span>Studio</a>
+                <a href="./index.html" lang="en" class="link logo header-logo"><span class="accent">Web</span>Studio</a>
                 <ul class="list nav-list">
-                    <li class="nav-item"><a href="./index.html" class="link nav-link">Студия</a></li>
-                    <li class="nav-item"><a href="./portfolio.html" class="link nav-link current">Портфолио</a></li>
-                    <li class="nav-item"><a href="" class="link nav-link">Контакты</a></li>
+                    <li class="nav-item"><a href="./index.html" class="link nav-link">Студія</a></li>
+                    <li class="nav-item"><a href="./portfolio.html" class="link nav-link current">Портфоліо</a></li>
+                    <li class="nav-item"><a href="" class="link nav-link">Контакти</a></li>
                 </ul>
             </nav>
             <ul class="list contacts-list">
@@ -44,18 +44,22 @@
     <main>
         <section class="projects section">
             <div class="container">
-            <h1 class="visually-hidden">Наши проекты</h1>
+            <h1 class="visually-hidden">Наші проєкти</h1>
             <ul class="list filter-list">
                 <li class="filter-item"><button type="button" class="button filter-button">Все</button></li>
-                <li class="filter-item"><button type="button" class="button filter-button">Веб-сайты</button></li>
-                <li class="filter-item"><button type="button" class="button filter-button">Приложения</button></li>
+                <li class="filter-item"><button type="button" class="button filter-button">Веб-сайти</button></li>
+                <li class="filter-item"><button type="button" class="button filter-button">Додатки</button></li>
                 <li class="filter-item"><button type="button" class="button filter-button">Дизайн</button></li>
                 <li class="filter-item"><button type="button" class="button filter-button">Маркетинг</button></li>
             </ul>
             <ul class="list projects-list">
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/screen.jpg" alt="Технокряк" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/screen.jpg" alt="Технокряк" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                        відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
                     <h2 class="projects-name">Технокряк</h2>
                     <p class="projects-type">Веб-сайт</p>
@@ -64,7 +68,11 @@
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/poster.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/poster.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                                вичерпні відомості про компанію чи приватну особу.</p>
+                    </div>
                     <div class="projects-card-content-wrapper">
                     <h2 class="projects-name">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                     <p class="projects-type">Дизайн</p>
@@ -73,34 +81,50 @@
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/restaurant-logo.jpg" alt="Ресторан Seafood" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/restaurant-logo.jpg" alt="Ресторан Seafood" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
                     <h2 class="projects-name">Ресторан <span lang="en">Seafood</span></h2>
-                    <p class="projects-type">Приложение</p>
+                    <p class="projects-type">Додаток</p>
                     </div>
                     </a>
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/headphones.jpg" alt="Проект Prime" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/headphones.jpg" alt="Проєкт Prime" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
-                    <h2 class="projects-name">Проект <span lang="en">Prime</span></h2>
+                    <h2 class="projects-name">Проєкт <span lang="en">Prime</span></h2>
                     <p class="projects-type">Маркетинг</p>
                     </div>
                     </a>
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/boxes.jpg" alt="Проект Boxes" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/boxes.jpg" alt="Проєкт Boxes" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
-                    <h2 class="projects-name">Проект <span lang="en">Boxes</span></h2>
-                    <p class="projects-type">Приложение</p>
+                    <h2 class="projects-name">Проєкт <span lang="en">Boxes</span></h2>
+                    <p class="projects-type">Додаток</p>
                     </div>
                     </a>
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/monitor.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/monitor.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
                     <h2 lang="en" class="projects-name">Inspiration has no Borders</h2>
                     <p class="projects-type">Веб-сайт</p>
@@ -109,28 +133,40 @@
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/magazine.jpg" alt="Издание Limited Edition" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/magazine.jpg" alt="Видання Limited Edition" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
-                    <h2 class="projects-name">Издание <span lang="en">Limited Edition</span></h2>
+                    <h2 class="projects-name">Видання <span lang="en">Limited Edition</span></h2>
                     <p class="projects-type">Дизайн</p>
                     </div>
                     </a>
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/label.jpg" alt="Проект LAB" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/label.jpg" alt="Проєкт LAB" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
-                    <h2 class="projects-name">Проект <span lang="en">LAB</span></h2>
+                    <h2 class="projects-name">Проєкт <span lang="en">LAB</span></h2>
                     <p class="projects-type">Маркетинг</p>
                     </div>
                     </a>
                 </li>
                 <li class="projects-item">
                     <a href="" class="link project-link">
-                    <img src="./images/portfolio/laptop.jpg" alt="Growing Business" width="370" height="294">
+                        <div class="projects-wrapper">
+                            <img src="./images/portfolio/laptop.jpg" alt="Growing Business" width="370" height="294">
+                                <p class="projects-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                                відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                        </div>
                     <div class="projects-card-content-wrapper">
                     <h2 lang="en" class="projects-name">Growing Business</h2>
-                    <p class="projects-type">Приложение</p>
+                    <p class="projects-type">Додаток</p>
                     </div>
                     </a>
                 </li>
@@ -141,12 +177,12 @@
     <footer class="page-footer">
         <div class="container footer-container">
             <div class="footer-logo-contacts">
-                <a href="./index.html" lang="en" class="link logo footer-logo"><span class="current">Web</span><span
+                <a href="./index.html" lang="en" class="link logo footer-logo"><span class="accent">Web</span><span
                         class="studio">Studio</span></a>
                 <address class="address">
                     <ul class="list address-list">
                         <li class="address-item"><a href="https://goo.gl/maps/y6KrP9Lz9JyF5ozc9" target="_blank"
-                                rel="noopener noreferrer" class="link address-link">г. Киев, пр-т Леси Украинки, 26</a></li>
+                                rel="noopener noreferrer" class="link address-link">м. Київ, пр-т Лесі Українки, 26</a></li>
                         <li class="address-item"><a href="mailto:info@example.com"
                                 class="link address-link footer-contacts-link">info@example.com</a></li>
                         <li class="address-item"><a href="tel:+380991111111"
@@ -156,7 +192,7 @@
                 </address>
             </div>
             <div class="footer-socials-join">
-                <p class="join">Присоединяйтесь</p>
+                <p class="join">Приєднуйтесь</p>
                 <ul class="list footer-social-list">
                     <li class="footer-social-item">
                         <a href="" class="footer-social-link">
